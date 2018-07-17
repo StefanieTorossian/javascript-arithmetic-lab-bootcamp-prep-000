@@ -52,9 +52,8 @@ console.log(decResult);
 function makeInt(n) {
 var result = [parseInt(n), parseInt('n',10)];
 if (result === parseInt(n)) {
-  
+ console.log("result"); 
+} else if (result === parseInt('n',10)) {
+  console.log("result");
 }
 }
-
-var result parseInt('n',10) = makeInt(n) 
-console.log(result);
