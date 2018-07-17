@@ -55,5 +55,5 @@ return result;
 }
 
 function preserveDecimal(n) {
-  
+  return parseFloat
 }
