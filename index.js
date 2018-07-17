@@ -54,4 +54,6 @@ function makeInt(n) {
 return result;
 }
 
-function preserveDecimal {
+function preserveDecimal(n) {
+  
+}
