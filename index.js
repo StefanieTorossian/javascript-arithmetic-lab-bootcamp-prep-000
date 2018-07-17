@@ -49,11 +49,9 @@ var decResult = dec(n);
 console.log(decResult);
 
 /// makeInt(n) PARSES N AS AN INTEGER
-function makeInt(n) {
-var result = [parseInt(n), parseInt('n',10)];
-if (result === parseInt(n)) {
- return result; 
-} else if (result === parseInt('n',10)) {
-  return result;
+function makeInt(n){
+  return parseInt(n,10);
 }
-}
+
+function preserveDecimal(n){
+  return parseFloat(n,10);
