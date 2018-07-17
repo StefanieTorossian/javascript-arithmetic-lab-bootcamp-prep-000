@@ -54,5 +54,5 @@ function makeInt(n) {
 return result;
 }
 
-var divideResult = divide(a, b);
-console.log(divideresult);
+var result = parseInt('n',10);
+console.log(result);
