@@ -51,7 +51,7 @@ console.log(decResult);
 /// makeInt(n) PARSES N AS AN INTEGER
 function makeInt(n) {
 var result = [parseInt(n), parseInt('n',10)];
-return result;
+if ()
 }
 
 var result parseInt('n',10) = makeInt(n) 
